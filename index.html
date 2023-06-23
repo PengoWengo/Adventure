@@ -6,33 +6,51 @@
   <meta name="viewport" content="width=device-width">
   <title>Alex_Unit 3 Projec</title>
   <link href="style.css" rel="stylesheet" type="text/css" />
+  
 </head>
-
 <body>
   <!--Between lines 8-12, put the opening of your story-->
-  <div class="title">Penguin Adventure </div>
+  <div class="title">Penguin Adventure
+    <button class="easterEgg" height="1px" width="1px">.</button>
+    <button class="reset">reset</button>
+  </div>
+
+  <div class="easter"> 
+    <img src="img/penguindancing.gif"> 
+  </div> 
+
   <div class="story-opening">
     <img src="img/igloo.jpg">
     <h1>You are resting peacefully in your igloo before you hear a noise outside.</h1>
   </div>
-
+  <div class="start">
+    <button id="begin">Start</button>
+  </div>
   <div class="buttons">
-    <button class="option-one">Sleep</button>
-    <button class="option-two">Leave the igloo</button>
+    <button id="option-one">Sleep</button>
+    <button id="option-two">Leave the igloo</button>
   </div>
 
   <div class="open-one-screen">
-    <h1>You go to sleep, not thinking about the noise.</h1>
+    <h1 id="sleep">You go to sleep, not thinking about the noise.</h1>
     <img src="img/sleep.jpg">
   </div>
-
+  <div class="buttons2">
+    <button id="option-one-two">Sleep more</button>
+    <button id="option-two-two">Wake Up and go outside</button>
+    <button onclick = 'click1()' id="option-one-two-two">Sleep more </button>
+  </div>
+  
   <div class="open-two-screen">
-    <h1>Put the second part of your story based on if they chose no </h1>
+    <h1>You walk out of your igloo and see a figure holding what appears to be your egg. </h1>
     <img src="https://cdn.glitch.global/9d066a26-dbcb-4aa3-b1af-3cd59e251b0c/placeholder.jpeg?v=1657576139439">
   </div>
-
+  <div class="buttons3">
+    <button id="option-one-three">Run after it</button>
+    <button id="option-two-three">Run back inside </button>
+  </div>
   <div class="open-one-end">
-    <h1>You wake up to find that your one egg that you laid is missing and so you are sad </h1>
+    <h1 id="eggGone">You wake up to find that your one egg that you laid is missing and so you are sad </h1>
     <img src="img/sad.jpg">
   </div>
   
@@ -41,7 +59,7 @@
     <img src="https://cdn.glitch.global/9d066a26-dbcb-4aa3-b1af-3cd59e251b0c/placeholder.jpeg?v=1657576139439">
   </div>
   <script src="script.js"></script>
-  <script src="https://replit.com/public/js/replit-badge.js" theme="blue" defer></script>
+  <script src="./build/snow3d.js"></script>
 </body>
 
 </html>     

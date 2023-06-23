@@ -1,7 +1,7 @@
 /* Feel free to change any of the styling below!*/
 body {
     text-align: center;
-
+    background-color: grey;
 }
 
 img {
@@ -67,4 +67,22 @@ h1 {
 .open-two-end{
    display:none;
 }
-body{}
+.easterEgg{
+    background-color: grey;
+    color: #FFFFF0;
+    float: right;
+    border: none;
+
+}
+.easter{
+    display:none;
+}
+.buttons2{
+    display:none;
+}
+.reset{
+    float:left;
+}
+.buttons3{
+    display:none;
+}
